@@ -1,25 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import './global.css';
+import Routes from './routes';
+// JSX - Java Script XML, quando tem html dentro de um arquivo js
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello World
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Santin
-        </a>
-      </header>
-    </div>
+    <Routes/>
   );
 }
 
